@@ -11,10 +11,11 @@
 	<packaging>war</packaging>
 	<name>cache-scheduler Portlet</name>
 	<scm>
-		<developerConnection>scm:git:git://github.com:fraunhoferfokus/odp-cache-scheduler-portlet.git</developerConnection>
+		<developerConnection>scm:git:git://gitlab.fokus.fraunhofer.de:odp-cache-scheduler-portlet</developerConnection>
 	</scm>
 	<build>
-		<finalName>${project.artifactId}-${project.version}-${buildNumber}</finalName>
+		<!-- <finalName>${project.artifactId}-${project.version}-${buildNumber}</finalName> -->
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>com.liferay.maven.plugins</groupId>
